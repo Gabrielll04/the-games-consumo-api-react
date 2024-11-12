@@ -2,9 +2,9 @@ import Head from "next/head";
 import Container from "@/Components/Container";
 import Menu from "@/Components/Menu";
 import Footer from "@/Components/Footer";
-import LoginContent from "@/Components/LoginContent";
+import HomeContent from "@/Components/HomeContent";
 
-export default function Home() {
+export default function Homepage() {
     return (
         <>
             <Head>
@@ -19,7 +19,7 @@ export default function Home() {
             <main>
                 <Menu />
                 <Container>
-                    <LoginContent />
+                    <HomeContent />
                 </Container>
             </main>
             <Footer />
